@@ -2,8 +2,8 @@
 package bash
 
 import (
-	"github.com/newrelic-forks/migrate/driver"
-	"github.com/newrelic-forks/migrate/file"
+	"github.com/johannespetzold/migrate/driver"
+	"github.com/johannespetzold/migrate/file"
 )
 
 type Driver struct {

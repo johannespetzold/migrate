@@ -6,7 +6,7 @@ import (
 	"path"
 	"testing"
 
-	"github.com/newrelic-forks/migrate/migrate/direction"
+	"github.com/johannespetzold/migrate/migrate/direction"
 )
 
 func TestParseFilenameSchema(t *testing.T) {

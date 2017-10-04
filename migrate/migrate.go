@@ -12,10 +12,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/newrelic-forks/migrate/driver"
-	"github.com/newrelic-forks/migrate/file"
-	"github.com/newrelic-forks/migrate/migrate/direction"
-	pipep "github.com/newrelic-forks/migrate/pipe"
+	"github.com/johannespetzold/migrate/driver"
+	"github.com/johannespetzold/migrate/file"
+	"github.com/johannespetzold/migrate/migrate/direction"
+	pipep "github.com/johannespetzold/migrate/pipe"
 )
 
 // Up applies all available migrations

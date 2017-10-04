@@ -7,8 +7,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/newrelic-forks/migrate/driver"
-	"github.com/newrelic-forks/migrate/file"
+	"github.com/johannespetzold/migrate/driver"
+	"github.com/johannespetzold/migrate/file"
 )
 
 type MethodNotFoundError string

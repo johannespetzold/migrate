@@ -7,9 +7,9 @@ import (
 	"fmt"
 
 	"github.com/denisenkom/go-mssqldb"
-	"github.com/newrelic-forks/migrate/driver"
-	"github.com/newrelic-forks/migrate/file"
-	"github.com/newrelic-forks/migrate/migrate/direction"
+	"github.com/johannespetzold/migrate/driver"
+	"github.com/johannespetzold/migrate/file"
+	"github.com/johannespetzold/migrate/migrate/direction"
 )
 
 type Driver struct {

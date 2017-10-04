@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/newrelic-forks/migrate/file"
-	"github.com/newrelic-forks/migrate/migrate/direction"
-	pipep "github.com/newrelic-forks/migrate/pipe"
+	"github.com/johannespetzold/migrate/file"
+	"github.com/johannespetzold/migrate/migrate/direction"
+	pipep "github.com/johannespetzold/migrate/pipe"
 )
 
 // TestMigrate runs some additional tests on Migrate().

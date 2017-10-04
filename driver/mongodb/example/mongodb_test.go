@@ -3,17 +3,17 @@ package example
 import (
 	"testing"
 
-	"github.com/newrelic-forks/migrate/file"
-	"github.com/newrelic-forks/migrate/migrate/direction"
+	"github.com/johannespetzold/migrate/file"
+	"github.com/johannespetzold/migrate/migrate/direction"
 
 	"os"
 	"reflect"
 	"time"
 
-	"github.com/newrelic-forks/migrate/driver"
-	"github.com/newrelic-forks/migrate/driver/mongodb"
-	"github.com/newrelic-forks/migrate/driver/mongodb/gomethods"
-	pipep "github.com/newrelic-forks/migrate/pipe"
+	"github.com/johannespetzold/migrate/driver"
+	"github.com/johannespetzold/migrate/driver/mongodb"
+	"github.com/johannespetzold/migrate/driver/mongodb/gomethods"
+	pipep "github.com/johannespetzold/migrate/pipe"
 )
 
 type ExpectedMigrationResult struct {

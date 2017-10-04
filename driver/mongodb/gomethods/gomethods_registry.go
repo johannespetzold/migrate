@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/newrelic-forks/migrate/driver"
+	"github.com/johannespetzold/migrate/driver"
 )
 
 var methodsReceiversMu sync.Mutex

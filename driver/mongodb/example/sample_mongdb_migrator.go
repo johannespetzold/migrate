@@ -3,12 +3,12 @@ package example
 import (
 	"time"
 
-	"github.com/newrelic-forks/migrate/driver/mongodb/gomethods"
-	_ "github.com/newrelic-forks/migrate/driver/mongodb/gomethods"
+	"github.com/johannespetzold/migrate/driver/mongodb/gomethods"
+	_ "github.com/johannespetzold/migrate/driver/mongodb/gomethods"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 
-	"github.com/newrelic-forks/migrate/driver/mongodb"
+	"github.com/johannespetzold/migrate/driver/mongodb"
 )
 
 type SampleMongoDbMigrator struct {

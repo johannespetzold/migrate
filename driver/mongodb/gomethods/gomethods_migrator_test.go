@@ -4,10 +4,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/newrelic-forks/migrate/file"
-	"github.com/newrelic-forks/migrate/migrate/direction"
+	"github.com/johannespetzold/migrate/file"
+	"github.com/johannespetzold/migrate/migrate/direction"
 
-	pipep "github.com/newrelic-forks/migrate/pipe"
+	pipep "github.com/johannespetzold/migrate/pipe"
 )
 
 type FakeGoMethodsInvoker struct {

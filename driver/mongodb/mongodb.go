@@ -5,10 +5,10 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/newrelic-forks/migrate/driver"
-	"github.com/newrelic-forks/migrate/driver/mongodb/gomethods"
-	"github.com/newrelic-forks/migrate/file"
-	"github.com/newrelic-forks/migrate/migrate/direction"
+	"github.com/johannespetzold/migrate/driver"
+	"github.com/johannespetzold/migrate/driver/mongodb/gomethods"
+	"github.com/johannespetzold/migrate/file"
+	"github.com/johannespetzold/migrate/migrate/direction"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 )
